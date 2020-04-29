@@ -1,6 +1,6 @@
 <h3>Post Form</h3>
 
-<%= form_tag (@post) do %>
+<%= form_tag (@post) do |f| %>
   <label>Post title:</label><br>
   <%= text_field_tag :title, @post.title %><br>
 
